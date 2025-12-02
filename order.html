@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Odering</title>
+
+<link rel="stylesheet" href="style.css">
+<!--CSS LINKING-->
+
+</head>
+
+<body>
+
+<!--Nav add Style-->
+
+<a href="index.html"> <img  class="LogofeaturesPage" src="Images/arizona-logo.png" alt="AriZona Logo"></a>
+<!--Pinterest AriZona-->
+
+<header>
+
+ <nav>
+		<ul class="link">
+			<li><a  href="index.html">Home Page</a></li>
+			<li><a  href="order.html">Order here</a></li>
+			<li><a  href="features.html">Features</a></li>
+		</ul>
+    </nav>
+
+</header>
+
+	
+
+
+<div class="infoorder">
+
+	<div class="sideimg">
+
+		<img id="imageoder" src="Images/AriZonaimgOrderPage.jpg" alt="Photo of Arizona" width="500"
+		height="800"  >
+
+    </div>
+
+	<br>
+		<label>Full name <br><input type="text" name="customerName">  </label>
+	<br>
+		<label> Address <br><input type="text" name="customeraddress">  </label>
+	<br>
+			<p><label>Phone <br> <input type="tel" name="phone" required></label></p>
+	
+
+</div>
+ 
+<!--CSS STYLE-->
+
+<fieldset class="textboxorderList">
+
+<p><label for="Extrainstructions" id="instructionstext">Extra instructions</label></p>
+
+<textarea rows="3" cols="10" name="instructions" id="instructions"></textarea>
+
+</fieldset>	
+
+<!--Ouantity add style-->
+
+ <p class="size"><label>How many cans are you purchasing</label></p>
+
+<p>
+	<select name="Quantity" class="size">
+		<option value="S">10-20</option>
+		<option value="M">20-60</option>
+		<option value="L">60-100</option>
+        <option value="More">More</option>
+	</select>
+</p>
+
+<p class="spicify"><label id="Extra">Want more spicify how many below</label></p>
+<textarea class= "box" cols="10" name="instructions" id="Extrainstructions"></textarea>
+
+
+
+<p class= "details"><label id="Mailinglist">Get emails for PROMOS</label></p>
+
+<input class="checkbox" type="checkbox" name="optional" value="joining">
+
+    <p class="button">
+
+    <input type="submit" value="placeorder">
+
+    </p>
+
+
+
+
+<footer class="bottom">
+
+Copywrite AriZona
+
+</footer>
+
+
+</body>
+</html>
+
+
+
+
+

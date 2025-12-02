@@ -1,0 +1,285 @@
+
+
+/*body for all pages*/
+
+
+body {
+ font-family: "chubby",Arial, Helvetica, sans-serif;
+background-color: rgb(148, 241, 241);
+color: rgb(194, 54, 119);
+font-size: 20px;
+}
+
+
+
+
+
+
+/*index*/
+
+/*custom font*/
+
+@font-face {
+   font-family: "june";
+   src: url(font/June\ in\ Rock\ -\ Personal\ Use.otf);
+
+}
+
+@font-face {
+      font-family: "chubby";
+   src: url(font/Super\ Chiby.ttf);
+}
+
+.sideImagesindex {
+
+      width: 100%;
+}
+
+#sideimg {
+    width: 500px;
+    float: right;
+    margin: 5px;
+}
+
+.LogofeaturesPage{
+ object-position: center;
+ margin-top: 10px;
+}
+
+  nav{
+    background-color: rgb(255, 255, 255);
+    font-size: 2em;
+    padding: 10px 20px;
+    border: 3px solid  rgb(231, 173, 46);
+    background-color: rgb(255, 234, 196);
+  }
+
+/*color and style for links*/
+
+.link {
+      display: flex; 
+  justify-content: space-around;
+  list-style: none;
+
+
+}
+
+
+    a:visited {
+            color: rgb(73, 213, 223); }
+
+    a:hover {
+            color: rgb(202, 172, 39); }
+
+    a:active {
+            color: rgb(190, 4, 76); 
+        }
+
+
+/*display img for home page*/
+
+ #flexbox {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 200px;
+    
+
+ }
+    
+
+ .arizona {
+
+    color: rgb(173, 2, 116);
+    font-size: xx-large;
+ }
+
+/*Z for arizona*/
+
+ .z {
+    color: rgb(255, 136, 0);
+    font-style: italic;
+ }
+
+h1 {
+    font-family: "june",Arial, Helvetica, sans-serif;
+    margin-left: 55px;
+    text-align: left;
+    font-size: 6em;
+    color: rgb(255, 174, 0);
+}
+
+
+h2 
+{
+  font-family: "june", Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+    text-align: left;
+    margin-top: 25px;
+    font-size: 2em;
+    color: rgb(255, 174, 0);
+}
+
+/*style for importent words*/
+ 
+.love {
+
+    font-style: italic;
+    font-size: 2em;
+}
+
+.green {
+  
+    font-size: x-large;
+    color: rgb(150, 0, 0);
+
+}
+
+.p1{
+    
+    text-align: left;
+    font-size: 25px;
+
+}
+
+.p2 {
+    margin-left: 20px;
+   text-align: left;
+   font-size: 23px;
+
+}
+
+h3 {
+    font-family: "june",Arial, Helvetica, sans-serif;
+    margin-left: 90px;
+    font-size: 2em;
+    color: rgb(255, 174, 0);
+
+}
+.sideImagesindex 
+{
+    padding: 20px;
+}
+
+#favp {
+    text-align: left;
+}
+
+footer{
+
+    color: brown;
+
+}
+
+
+/*features*/
+
+
+/*image on features*/
+
+#imagef {
+    width: 100%;
+}
+
+.SideImagesPageFeatures
+{
+width: 600px;
+ float: right;
+ margin-right: 20px;
+
+}
+
+
+.great {
+   
+    font-size: 2em;
+    color: rgb(243, 141, 8);
+}
+
+
+.article-content {
+
+    margin-left: 15px;
+    margin-right: 450px;
+}
+
+.list {
+    margin-right: auto;
+}
+
+.Info {
+text-align: left;
+margin-right: auto;
+
+}
+
+.side {
+    margin-right: 100px;
+}
+
+.ingredients
+{
+   font-style: italic;
+   font-size: 2em;
+   color: rgb(255, 145, 0);
+}
+
+
+/*order*/
+
+
+#imageoder {
+    width: 100%;
+}
+
+.sideimg {
+    height: 200px;
+  width: 500px;
+ float: right;
+ margin-right: 20px;
+}
+
+.infoorder {
+     margin-left: 40px;
+    
+}
+
+.textboxorderList {
+    margin-left: 40px;
+}
+
+.size {
+      margin-left: 40px;
+}
+
+.spicify {
+    margin-left: 40px;
+}
+
+
+.box {
+    margin-left: 40px;
+}
+
+.details {
+    margin-left: 40px;
+}
+
+.box {
+    margin-left: 40px;
+}
+
+.checkbox {
+    margin-left: 40px;
+}
+
+.button {
+    margin-left: 40px;
+}
+
+.bottom {
+  margin-left: 350px;
+}
+
+
+
